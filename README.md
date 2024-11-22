@@ -7,7 +7,10 @@ cosmic
 cosmic V2
 ![cosmic V2](https://github.com/user-attachments/assets/b6df63cf-78ec-472d-a62a-140c825a0f27)
 
+## Prerequisites
 
+Before installing the theme, make sure you have Oh My Posh installed. For Windows installation instructions, visit:
+[Oh My Posh Windows Installation Guide](https://ohmyposh.dev/docs/installation/windows)
 
 ## Variants
 
