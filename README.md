@@ -16,11 +16,12 @@ Before installing the theme, make sure you have Oh My Posh installed. For Window
 
 - `cosmic.omp.json`: Shows current folder name for cleaner output
 - `cosmic_v2.omp.json`: Shows full path for detailed navigation
+- `cosmic_v3.omp.json`: Shows path with house icon (🏠), folder icons (📂), and elegant double arrows (»), all properly spaced for maximum readability
 
 ## Features
 
 - 🚀 Clean two-line layout with rounded ends
-- 📂 Smart path display (folder/full-path variants)
+- 📂 Smart path display (folder/full-path/icons variants)
 - 🔄 Git status integration with branch and file indicators
 - ⏱️ Command execution time tracking
 - 📅 Date and time display
@@ -35,3 +36,5 @@ Choose your preferred variant and add to your PowerShell profile:
 oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic.omp.json" | Invoke-Expression
 # or
 oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic_v2.omp.json" | Invoke-Expression
+# or
+oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic_v3.omp.json" | Invoke-Expression
