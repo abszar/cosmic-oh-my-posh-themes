@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 2,
+  "final_space": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "session",
+          "style": "diamond",
+          "background": "#1a1b26",
+          "foreground": "#7aa2f7",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "",
+          "template": " \ue70f {{ .UserName }} "
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#2c2e3e",
+          "foreground": "#bb9af7",
+          "properties": {
+            "style": "folder"
+          },
+          "template": " \uf07c {{ .Path }} "
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "background": "#3b3d57",
+          "foreground": "#7dcfff",
+          "properties": {
+            "branch_icon": "\ue725",
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "fetch_stash_count": true
+          },
+          "template": " {{ .HEAD }}{{ if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} "
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "background": "#4a4c70",
+          "foreground": "#f7768e",
+          "leading_diamond": "",
+          "trailing_diamond": "\ue0b4",
+          "properties": {
+            "time_format": "15:04:05"
+          },
+          "template": " \uf64f {{ .CurrentDate | date .Format }} "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "executiontime",
+          "style": "diamond",
+          "background": "#2c2e3e",
+          "foreground": "#7dcfff",
+          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "",
+          "template": " \uf252 {{ .FormattedMs }} ",
+          "properties": {
+            "always_enabled": true,
+            "style": "austin",
+            "threshold": 500
+          }
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "background": "#1a1b26",
+          "foreground": "#bb9af7",
+          "leading_diamond": "",
+          "trailing_diamond": "\ue0b4",
+          "template": " \uf5ef {{ .CurrentDate | date \"Jan 02 2006\" }} "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#7aa2f7",
+          "template": "\u2570\u2500"
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "template": "<#7aa2f7>\u276f</><#bb9af7>\u276f</><#7dcfff>\u276f</> ",
+          "properties": {
+            "always_enabled": true
+          }
+        }
+      ]
+    }
+  ]
+}
