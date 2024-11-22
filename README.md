@@ -6,7 +6,7 @@ cosmic
 ![cosmic](https://github.com/user-attachments/assets/1a58ae40-74d3-41b0-ab73-19c28996898f)
 cosmic V2
 ![cosmic V2](https://github.com/user-attachments/assets/89b598ff-bfae-4215-9266-ba0cae07616a)
-cosmic V2
+cosmic V3
 ![cosmic V3](https://github.com/user-attachments/assets/593125e5-3e28-4327-9c97-3b3b250f1918)
 
 
