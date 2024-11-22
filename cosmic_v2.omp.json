@@ -19,7 +19,7 @@
         {
           "type": "path",
           "style": "powerline",
-          "powerline_symbol": "\ue0b0",
+          "powerline_symbol": "\ue0c6",
           "background": "#2c2e3e",
           "foreground": "#bb9af7",
           "properties": {
