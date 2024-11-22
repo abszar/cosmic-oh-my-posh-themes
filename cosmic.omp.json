@@ -51,7 +51,7 @@
           "properties": {
             "time_format": "15:04:05"
           },
-          "template": " \uf64f {{ .CurrentDate | date .Format }} "
+          "template": " \uf017 {{ .CurrentDate | date .Format }} "
         }
       ]
     },
@@ -80,7 +80,7 @@
           "foreground": "#bb9af7",
           "leading_diamond": "",
           "trailing_diamond": "\ue0b4",
-          "template": " \uf5ef {{ .CurrentDate | date \"Jan 02 2006\" }} "
+          "template": " \uf017 {{ .CurrentDate | date \"Jan 02 2006\" }} "
         }
       ]
     },

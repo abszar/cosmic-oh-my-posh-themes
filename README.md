@@ -22,6 +22,6 @@ A modern, space-inspired prompt theme for Oh My Posh with a clean two-line layou
 Choose your preferred variant and add to your PowerShell profile:
 
 ```powershell
-oh-my-posh init pwsh --config ~/Desktop/themes/cosmic.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic.omp.json" | Invoke-Expression
 # or
-oh-my-posh init pwsh --config ~/Desktop/themes/cosmic_v2.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic_v2.omp.json" | Invoke-Expression
