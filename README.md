@@ -2,6 +2,13 @@
 
 A modern, space-inspired prompt theme for Oh My Posh with a clean two-line layout and cosmic color scheme.
 
+cosmic
+![cosmic](https://github.com/user-attachments/assets/38ce4eef-9971-4b08-a173-4183ea342e5f)
+cosmic V2
+![cosmic V2](https://github.com/user-attachments/assets/b6df63cf-78ec-472d-a62a-140c825a0f27)
+
+
+
 ## Variants
 
 - `cosmic.omp.json`: Shows current folder name for cleaner output
