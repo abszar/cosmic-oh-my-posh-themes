@@ -14,7 +14,7 @@
           "foreground": "#7aa2f7",
           "leading_diamond": "\ue0b6",
           "trailing_diamond": "",
-          "template": " \ue70f {{ .UserName }} "
+          "template": " {{ if eq .OS \"windows\" }}\ue70f{{ else if or (eq .OS \"linux\") (eq .OS \"Linux\") }}\uf17c{{ else if eq .OS \"darwin\" }}\uf179{{ else }}\uf17c{{ end }} {{ .UserName }} "
         },
         {
           "type": "path",
