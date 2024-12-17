@@ -35,4 +35,4 @@ Before installing the theme, make sure you have Oh My Posh installed. Follow the
 
 ## Installation
 
-Follow the [Oh My Posh Theme Configuration Guide](hhttps://ohmyposh.dev/docs/installation/customize) for your shell.
+Follow the [Oh My Posh Theme Configuration Guide](https://ohmyposh.dev/docs/installation/customize) for your shell.
