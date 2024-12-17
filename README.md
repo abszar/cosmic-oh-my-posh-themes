@@ -9,11 +9,13 @@ cosmic V2
 cosmic V3
 ![cosmic V3](https://github.com/user-attachments/assets/593125e5-3e28-4327-9c97-3b3b250f1918)
 
-
 ## Prerequisites
 
-Before installing the theme, make sure you have Oh My Posh installed. For Windows installation instructions, visit:
-[Oh My Posh Windows Installation Guide](https://ohmyposh.dev/docs/installation/windows)
+Before installing the theme, make sure you have Oh My Posh installed. Follow the installation guide for your operating system:
+
+- [Windows Installation Guide](https://ohmyposh.dev/docs/installation/windows)
+- [Linux Installation Guide](https://ohmyposh.dev/docs/installation/linux)
+- [macOS Installation Guide](https://ohmyposh.dev/docs/installation/macos)
 
 ## Variants
 
@@ -33,11 +35,4 @@ Before installing the theme, make sure you have Oh My Posh installed. For Window
 
 ## Installation
 
-Choose your preferred variant and add to your PowerShell profile:
-
-```powershell
-oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic.omp.json" | Invoke-Expression
-# or
-oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic_v2.omp.json" | Invoke-Expression
-# or
-oh-my-posh init pwsh --config "C:\Program Files (x86)\oh-my-posh\themes\cosmic_v3.omp.json" | Invoke-Expression
+Follow the [Oh My Posh Theme Configuration Guide](hhttps://ohmyposh.dev/docs/installation/customize) for your shell.
